@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#buscar {
+  display: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+#titulo-buscar {
+width: 60%;
+align-items: flex-start;
+padding-left: 3em;
+}
+
+#input-buscar {
+  height: 40px;
+  width: 35%;
+  border-radius: 8px;
+  padding-right: 3em;  
+}
+
+form {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#input-nombre {
+  margin: 0.5em;
+  border-radius: 8px;
+  height: 30px;
+  width: 25%;
+}
+
+#input-email {
+  margin: 0.5em;
+  border-radius: 8px;
+  height: 30px;
+  width: 25%;
+}
+
+#btn-agregar {
+  height: 35px;
+  width: 18%;
+  border-radius: 8px;
+  background-color: yellow;
+
+}
